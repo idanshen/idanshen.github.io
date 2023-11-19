@@ -7,5 +7,5 @@ date: 2021-01-01
 venue: 'NeurIPS'
 paperurl: ''
 citation: ''
-authors: "Idan Shenfeld, Zhang-Wei Hong, Aviv Tamar, and Pulkit Agrawal"
+authors: "Ron Dorfman, Idan Shenfeld, and Aviv Tamar"
 ---
