@@ -2,12 +2,12 @@
 title: "TGRL: An Algorithm for Teacher Guided Reinforcement Learning"
 collection: publications
 permalink: 'https://sites.google.com/view/tgrl-paper/home'
-excerpt: ''
+excerpt: 'Selected for Oral Presentation at 2023 ICLR RRL Workshop.'
 date: 2023-01-01
 venue: 'ICML'
 paperurl: ''
 citation: ''
-authors: "**Idan Shenfeld**, Zhang-Wei Hong, Aviv Tamar, and Pulkit Agrawal"
+authors: "<b>Idan Shenfeld</b>, Zhang-Wei Hong, Aviv Tamar, and Pulkit Agrawal"
 ---
 
-Selected for Oral Presentation at 2023 ICLR RRL Workshop.
+
