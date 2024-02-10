@@ -15,8 +15,8 @@ Prior to that, I completed my bachelor's degree in EECS from [the Technion](http
 
 <h2>News</h2>
 
+<b>[Jan 2024]</b> Red-teaming of LLMs using RL got accepted to ICLR 2024<br>
 <b>[Spring 2024]</b> Teaching Assistant for <a href="https://pulkitag.github.io/6.884/sp20/"> Computational Sensorimotor Learning Course</a>. <br>
 <b>[Sep 2023]</b> Invited talk at Hyundai Research. <br>
 <b>[Jun 2023]</b> Invited talk at the Technion. <br>
 <b>[Apr 2023]</b> Our TGRL paper got accepted to ICML2023, see you in Hawaii! <br>
-<b>[Sep 2022]</b> Started my Phd at MIT. <br>
