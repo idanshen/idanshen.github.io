@@ -14,7 +14,7 @@ Prior to that, I completed my bachelor's degree in EECS from [the Technion](http
 
 <h2>News</h2>
 
-<b>[Jan 2024]</b> Red-teaming of LLMs using RL got accepted to ICLR 2024<br>
+<b>[Jan 2024]</b> 'Curiosity-driven Red-teaming for Large Language Models' got accepted to ICLR 2024<br>
 <b>[Spring 2024]</b> Teaching Assistant for <a href="https://pulkitag.github.io/6.884/sp20/"> Computational Sensorimotor Learning Course</a>. <br>
 <b>[Sep 2023]</b> Invited talk at Hyundai Research. <br>
 <b>[Jun 2023]</b> Invited talk at the Technion. <br>
