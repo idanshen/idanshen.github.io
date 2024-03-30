@@ -1,7 +1,7 @@
 ---
 title: "Curiosity-driven Red-teaming for Large Language Models"
 collection: publications
-permalink: 'https://openreview.net/forum?id=4KqkizXgXU'
+permalink: 'https://arxiv.org/abs/2402.19464'
 excerpt: ''
 date: 2024-01-01
 venue: 'ICLR'
