@@ -1,7 +1,7 @@
 ---
 title: "Value Augmented Sampling: Predict Your Rewards to Align"
 collection: publications
-permalink: 'https://openreview.net/forum?id=63C7lbQaUJ'
+permalink: 'https://drive.google.com/file/d/1hn_CPz1RT4EO9Zn7M1S4JY9HIyezwGzG/view?usp=sharing'
 excerpt: ''
 date: 2024-01-01
 venue: 'Under Review for ICML'
