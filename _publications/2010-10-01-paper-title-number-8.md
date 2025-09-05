@@ -1,7 +1,7 @@
 ---
 title: "Beyond Binary Rewards: Training LMs to Reason About Their Uncertainty"
 collection: publications
-permalink: 'https://arxiv.org/abs/2410.04707'
+permalink: 'https://arxiv.org/abs/2507.16806'
 excerpt: ''
 date: 2025-01-01
 venue: 'Arxiv Preprint'
