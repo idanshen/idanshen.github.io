@@ -7,10 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year Ph.D. student in EECS at [MIT CSAIL](https://csail.mit.edu) advised by Professor [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/).  I'm working on reinforcement learning algorithms and their applications, mainly in NLP and robotics. My research has been funded by [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2024-north-america) and [MIT-Google Collaboration Grant](https://computing.mit.edu/mit-google-program-for-computing-innovation/).
+I am a fourth-year Ph.D. student in EECS at MIT advised by Professor [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/). I'm working on reinforcement learning algorithms and their applications, mainly in NLP and robotics. My research has been funded by [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2024-north-america) and [MIT-Google Collaboration Grant](https://computing.mit.edu/mit-google-program-for-computing-innovation/).
 
 <h2>News</h2>
-<b>[Jul 2025]</b>"Language Model Personalization via Reward Factorization" will be presented as an oral in MoFA Workshop, ICML 2025 <br>
+<b>[Dec 2025]</b> "RL's Razor" got the best paper award at the CCFM Workshop, Neurips 2025 <br>
+<b>[Jul 2025]</b> "Language Model Personalization via Reward Factorization" will be presented as an oral in MoFA Workshop, ICML 2025 <br>
 <b>[Sep 2024]</b> Awarded the Qualcomm 2024 Innovation Fellowship<br>
 <b>[June 2024]</b> I'm joining Google DeepMind as a student researcher for summer 2024<br>
 <details><summary>More</summary>
