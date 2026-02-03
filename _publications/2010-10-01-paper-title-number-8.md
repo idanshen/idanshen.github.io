@@ -4,7 +4,7 @@ collection: publications
 permalink: 'https://arxiv.org/abs/2507.16806'
 excerpt: ''
 date: 2025-01-01
-venue: 'Arxiv Preprint'
+venue: 'ICLR'
 paperurl: ''
 citation: ''
 authors: "Mehul Damani, Isha Puri, Stewart Slocum, <b>Idan Shenfeld</b>, Leshem Choshen, Yoon Kim, Jacob Andreas"
