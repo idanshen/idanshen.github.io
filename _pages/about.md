@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year Ph.D. student in EECS at MIT advised by Professor [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/). I'm working on reinforcement learning algorithms and their applications, mainly in NLP and robotics. My research has been funded by [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2024-north-america) and [MIT-Google Collaboration Grant](https://computing.mit.edu/mit-google-program-for-computing-innovation/).
+I am a fourth-year Ph.D. student at MIT advised by Professor [Pulkit Agrawal](https://people.csail.mit.edu/pulkitag/). My research focus is reinforcement learning algorithms and their applications, mainly in NLP and robotics. My research has been funded by [Qualcomm Innovation Fellowship](https://www.qualcomm.com/research/university-relations/innovation-fellowship/2024-north-america) and [MIT-Google Collaboration Grant](https://computing.mit.edu/mit-google-program-for-computing-innovation/).
+
+I was most recently at Google DeepMind working on post-training for LLMs. I have a B.Sc. in Computer Engineering from the Technion. While there I worked with [Aviv Tamar](https://avivt.github.io/avivt/) on reinforcement learning research.
 
 <section class="news-section">
   <input id="news-recent-toggle" class="news-toggle__input" type="checkbox" checked aria-label="Show recent news only">
@@ -23,11 +25,12 @@ I am a fourth-year Ph.D. student in EECS at MIT advised by Professor [Pulkit Agr
   </div>
 
   <div class="news-list">
-    <div class="news__row" data-recent-news="true"><span class="news__date">[Apr 2026]</span><span class="news__text">Invited talk at IBM Research and UT Austin</span></div>
+    <div class="news__row" data-recent-news="true"><span class="news__date">[Apr 2026]</span><span class="news__text">Invited talk at IBM Research</span></div>
+    <div class="news__row" data-recent-news="true"><span class="news__date">[Apr 2026]</span><span class="news__text">Invited talk at UT Austin</span></div>
     <div class="news__row" data-recent-news="true"><span class="news__date">[Apr 2026]</span><span class="news__text">Interview at Deep Learning with Yacine <a href="https://www.youtube.com/watch?v=agitg8_0rlw">[Link]</a></span></div>
     <div class="news__row" data-recent-news="true"><span class="news__date">[Mar 2026]</span><span class="news__text">Invited talk at FAIR</span></div>
     <div class="news__row" data-recent-news="true"><span class="news__date">[Dec 2025]</span><span class="news__text"><i>RL's Razor</i> got the best paper award at the CCFM Workshop, Neurips 2025</span></div>
-    <div class="news__row" data-recent-news="true"><span class="news__date">[Jul 2025]</span><span class="news__text"><i>Language Model Personalization via Reward Factorization</i> will be presented as an oral in MoFA Workshop, ICML 2025</span></div>
+    <div class="news__row"><span class="news__date">[Jul 2025]</span><span class="news__text"><i>Language Model Personalization via Reward Factorization</i> will be presented as an oral in MoFA Workshop, ICML 2025</span></div>
     <div class="news__row"><span class="news__date">[Sep 2024]</span><span class="news__text">Awarded the Qualcomm 2024 Innovation Fellowship</span></div>
     <div class="news__row"><span class="news__date">[Jun 2024]</span><span class="news__text">I'm joining Google DeepMind as a student researcher for summer 2024</span></div>
     <div class="news__row"><span class="news__date">[May 2024]</span><span class="news__text">I will give an oral presentation in ICLR 2024 R2-FM workshop on our <i>Value Augmented Sampling</i> paper</span></div>
