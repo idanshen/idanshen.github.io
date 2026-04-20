@@ -69,10 +69,21 @@
    Author profile and links
    ========================================================================== */
 
+.sidebar [itemscope] {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  column-gap: 14px;
+  align-items: center;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
 .author__avatar {
-  display: table-cell;
+  display: block;
   vertical-align: top;
-  width: 36px;
+  width: 76px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -85,6 +96,7 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    width: 100%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -94,10 +106,10 @@
 }
 
 .author__content {
-  display: table-cell;
+  display: block;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  padding-left: 0;
+  padding-right: 0;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -118,7 +130,11 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
+
+  @include breakpoint($large) {
+    font-size: $type-size-5;
+  }
 }
 
 .author__bio {
@@ -132,8 +148,10 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: block;
+  grid-column: 1 / -1;
   vertical-align: middle;
+  margin-top: 0.6em;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
@@ -147,6 +165,7 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 0;
   }
 
   button {
@@ -161,7 +180,8 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
+  left: 0;
+  right: auto;
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
@@ -175,6 +195,7 @@
   @include breakpoint($large) {
     display: block;
     position: relative;
+    left: auto;
     margin: 0;
     padding: 0;
     border: 0;
