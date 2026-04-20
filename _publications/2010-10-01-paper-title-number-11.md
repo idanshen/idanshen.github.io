@@ -2,10 +2,14 @@
 title: "Self-Distillation Enables Continual Learning"
 collection: publications
 permalink: 'https://arxiv.org/abs/2601.19897'
-excerpt: 'An On-Policy Self-Distillation algorithm that enables on-policy learning from demonstration, thus achieving better performance without catastrophic forgetting compared to SFT.'
+arxivurl: 'https://arxiv.org/abs/2601.19897'
+projecturl: 'https://self-distillation.github.io/SDFT'
+publication_order: 10
+selected_publication: true
+excerpt: ''
 date: 2026-01-01
-venue: 'Arxiv Preprint'
+venue: 'Oral presentation at Workshop on Lifelong Agents, ICLR 2026'
 paperurl: ''
 citation: ''
-authors: "<b>Idan Shenfeld</b>, Mehul Damani, Jonas Hübotter, Pulkit Agrawal"
+authors: "<u>Idan Shenfeld</u>, Mehul Damani, Jonas Hübotter, Pulkit Agrawal"
 ---

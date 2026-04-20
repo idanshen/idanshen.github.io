@@ -1,0 +1,52 @@
+{% include base_path %}
+
+<article class="publication-home"{% if post.selected_publication %} data-selected-publication="true"{% endif %}>
+  <h3 class="publication-home__title">{{ post.title }}</h3>
+
+  {% if post.authors %}
+    <p class="publication-home__authors">{{ post.authors }}</p>
+  {% endif %}
+
+  <p class="publication-home__meta">
+    {% assign publication_year = post.date | default: "1900-01-01" | date: "%Y" %}
+    {% if post.venue %}
+      <i>{{ post.venue }}</i>{% unless post.venue contains publication_year %}, {{ publication_year }}{% endunless %}
+    {% elsif post.date %}
+      {{ publication_year }}
+    {% endif %}
+  </p>
+
+  {% assign fallback_url = post.paperurl | default: post.permalink | default: "" | strip %}
+  {% assign arxiv_url = post.arxivurl | default: "" | strip %}
+  {% assign project_url = post.projecturl | default: "" | strip %}
+  {% assign code_url = post.codeurl | default: "" | strip %}
+  {% if fallback_url != "" or arxiv_url != "" or project_url != "" or code_url != "" %}
+    <p class="publication-home__links">
+      {% if arxiv_url != "" %}
+        [<a href="{{ arxiv_url }}">ArXiv</a>]
+      {% endif %}
+      {% if project_url != "" %}
+        [<a href="{{ project_url }}">Project page</a>]
+      {% endif %}
+      {% if code_url != "" %}
+        [<a href="{{ code_url }}">Code</a>]
+      {% endif %}
+      {% if arxiv_url == "" and project_url == "" and code_url == "" %}
+        {% assign fallback_label = "Paper" %}
+        {% if fallback_url contains "arxiv.org" %}
+          {% assign fallback_label = "ArXiv" %}
+        {% elsif fallback_url contains "sites.google.com" %}
+          {% assign fallback_label = "Project page" %}
+        {% elsif fallback_url contains "proceedings" %}
+          {% assign fallback_label = "Proceedings" %}
+        {% endif %}
+        [<a href="{{ fallback_url }}">{{ fallback_label }}</a>]
+      {% endif %}
+    </p>
+  {% endif %}
+
+  {% assign excerpt_text = post.excerpt | markdownify | strip_html | strip %}
+  {% if excerpt_text != "" %}
+    <p class="publication-home__excerpt">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+  {% endif %}
+</article>
