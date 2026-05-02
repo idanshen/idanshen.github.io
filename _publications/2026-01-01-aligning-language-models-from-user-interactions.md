@@ -4,7 +4,7 @@ collection: publications
 permalink: 'https://arxiv.org/abs/2603.12273'
 arxivurl: 'https://arxiv.org/abs/2603.12273'
 projecturl: 'https://self-distillation.github.io/user_interactions.html'
-publication_order: 2
+publication_order: 1
 excerpt: ''
 date: 2026-01-01
 venue: 'Arxiv Preprint'

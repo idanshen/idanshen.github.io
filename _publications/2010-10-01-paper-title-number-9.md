@@ -9,6 +9,7 @@ selected_publication: true
 excerpt: ''
 date: 2026-01-01
 venue: 'ICLR'
+award: 'Outstanding Paper Award at the CCFM Workshop, NeurIPS 2025'
 paperurl: ''
 citation: ''
 authors: "<u>Idan Shenfeld</u>, Jyothish Pari, Pulkit Agrawal"

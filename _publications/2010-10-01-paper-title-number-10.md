@@ -7,7 +7,7 @@ projecturl: 'https://self-distillation.github.io/SDPO.html'
 publication_order: 20
 excerpt: ''
 date: 2026-01-01
-venue: 'Oral presentation at Workshop on Test-Time Updates, ICLR 2026'
+venue: 'ICML'
 paperurl: ''
 citation: ''
 authors: "Jonas Hübotter, Frederike Lübeck,... <u>Idan Shenfeld</u>,... Andreas Krause"

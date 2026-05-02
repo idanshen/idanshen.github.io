@@ -8,7 +8,8 @@ publication_order: 10
 selected_publication: true
 excerpt: ''
 date: 2026-01-01
-venue: 'Oral presentation at Workshop on Lifelong Agents, ICLR 2026'
+venue: 'ICML'
+award: 'Best Paper Award at Lifelong Agents Workshop, ICLR 2026'
 paperurl: ''
 citation: ''
 authors: "<u>Idan Shenfeld</u>, Mehul Damani, Jonas Hübotter, Pulkit Agrawal"

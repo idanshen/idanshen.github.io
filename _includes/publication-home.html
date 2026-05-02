@@ -16,6 +16,10 @@
     {% endif %}
   </p>
 
+  {% if post.award %}
+    <p class="publication-home__award"><i>{{ post.award }}</i></p>
+  {% endif %}
+
   {% assign fallback_url = post.paperurl | default: post.permalink | default: "" | strip %}
   {% assign arxiv_url = post.arxivurl | default: "" | strip %}
   {% assign project_url = post.projecturl | default: "" | strip %}

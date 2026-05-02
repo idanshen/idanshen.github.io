@@ -214,6 +214,7 @@
 
 .page__content .publication-home__authors,
 .page__content .publication-home__meta,
+.page__content .publication-home__award,
 .page__content .publication-home__links,
 .page__content .publication-home__excerpt {
   margin: 0;
@@ -225,6 +226,10 @@
 
 .page__content .publication-home__meta {
   color: mix(#fff, $text-color, 12%);
+  line-height: 1.35;
+}
+
+.page__content .publication-home__award {
   line-height: 1.35;
 }
 
